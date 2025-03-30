@@ -25,3 +25,16 @@ git clone https://github.com/Faizanfarhad/Space-Craft-Game.git
 ``
 #Dependency
 * pip install pygame
+
+# Usage
+* Run the game by executing the following command:
+```
+   python main.py
+   ```
+
+
+#Contributing
+* Contributions are welcome! Please fork the repository and create a pull request with your changes.
+
+#License
+* This project is licensed under the MIT License.
