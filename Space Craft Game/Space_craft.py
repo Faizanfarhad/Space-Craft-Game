@@ -8,14 +8,7 @@ import game_func
 import time
 os.environ['SDL_AUDIODRIVER'] = 'alsa'
 
-"""
-[*] set boder of the component (spaceship dont have to ge outside the window)
-[*] make player and enemy collison  concept (completed)
-[] when collision happend show collision effect (space ship crashed image) and play a crashed sound
-[] make a enemy and spawn that randomly in the upperside ((scree_height /2 ) for make enemy float in upper side)
-** make enemy random teleport under y < 200 or you can make the enemy to go down if it touched the 
-south y boundary then display you lose Game ends 
-"""
+
 def disable_key(key):
     if key:
         return 
