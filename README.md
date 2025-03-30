@@ -23,8 +23,7 @@ git clone https://github.com/Faizanfarhad/Space-Craft-Game.git
 
 # Usage
 * Run the game by executing the following command:
-```
-   python main.py
+``  python main.py
    ```
 
 
