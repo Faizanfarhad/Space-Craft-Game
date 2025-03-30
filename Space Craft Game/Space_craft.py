@@ -1,10 +1,7 @@
 import pygame
-import cProfile
 import os
-import numpy as np
 import random
 import math
-import game_func
 import time
 os.environ['SDL_AUDIODRIVER'] = 'alsa'
 
@@ -227,5 +224,5 @@ class Main_Game(Space_Craft_Game):
 
             
 
-# cProfile.run('Main_Game()')
+
 Main_Game()
