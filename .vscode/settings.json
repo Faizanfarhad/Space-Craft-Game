@@ -1,0 +1,4 @@
+{
+    "python.defaultInterpreterPath": "/media/LAPCARE/env/bin/activate",
+    "python.analysis.extraPaths": ["/media/LAPCARE/env/lib/python3.12/site-packages"]
+}
