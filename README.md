@@ -20,8 +20,8 @@ To clone this repo, use the following command:
 
 ```bash
 git clone https://github.com/Faizanfarhad/Space-Craft-Game.git
-*  ``
- Use:-  https://github.com/Faizanfarhad/Space-Craft-Game.git
+ ``
+
 ``
 #Dependency
 * pip install pygame
