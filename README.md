@@ -6,7 +6,7 @@ Space Craft Game using pygame. This is an exciting game where you navigate a spa
 ## Table of Contents
 - [Installation](#installation)
 - [Dependencies](#dependencies)
-- [Usage](#usage)
+- [How to play this game ?](#how-to-play-this-game-?)
 - [Contributing](#contributing)
 - [License](#license)
 
