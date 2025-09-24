@@ -10,7 +10,7 @@ def disable_key(key):
     if key:
         return 
 
-bg_img = pygame.image.load('/media/LAPCARE/pygame/game Images/2206_w023_n003_2491b_p1_2491.jpg')
+bg_img = pygame.image.load('game Images/2206_w023_n003_2491b_p1_2491.jpg')
 
 class Space_Craft_Game:
     def __init__(self):
@@ -33,7 +33,7 @@ class Space_Craft_Game:
         pygame.display.set_caption(('Space Craft'))
         try:
             pygame.display.set_allow_screensaver(True)
-            image = pygame.image.load('/media/LAPCARE/pygame/game Images/spaceship.png')
+            image = pygame.image.load('game Images/spaceship.png')
             pygame.display.set_icon(image)
         except pygame.error as e:
             print(f'coould not able to load image : {e}')
@@ -60,7 +60,7 @@ class Space_Craft_Game:
             
             enemy = self.enemyTrackingPlayer()
             if enemy:
-                image = pygame.image.load("/media/LAPCARE/pygame/game Images/game-over (1).jpg")
+                image = pygame.image.load("game Images/game-over (1).jpg")
                 self.screen.blit(image,(0,0))
                 
                 
@@ -107,11 +107,11 @@ class Space_Craft_Game:
         
 
     def player_system(self,x,y):
-        player_img = pygame.image.load('/media/LAPCARE/pygame/game Images/IMG_0163-removebg-preview (2).png')
+        player_img = pygame.image.load('game Images/IMG_0163-removebg-preview(2).png')
         self.screen.blit(player_img,(x,y))
 
     def enemy(self,x,y):
-        enemy_img = pygame.image.load('/media/LAPCARE/pygame/game Images/grim-reaper.png')
+        enemy_img = pygame.image.load('game Images/grim-reaper.png')
         self.screen.blit(enemy_img,(x,y))
 
 
@@ -139,16 +139,16 @@ class Space_Craft_Game:
             except Exception as e:
                 print(f'Error  {e}')
     def bullet_img(self):
-        bullet_img = pygame.image.load('/media/LAPCARE/pygame/game Images/circled_bullet.png')
+        bullet_img = pygame.image.load('game Images/circled_bullet.png')
         
         if self.bullet_fired:
             self.screen.blit(bullet_img,(self.bulletX,self.bulletY))
     
     def menu(self):
         pygame.init()
-        menu_bg_image = pygame.image.load('/media/LAPCARE/pygame/menu bar images/background_menu_panel.png')
+        menu_bg_image = pygame.image.load('menu bar images/background_menu_panel.png')
         screen = pygame.display.set_mode((1200,640))
-        spaceship = pygame.image.load('/media/LAPCARE/pygame/game Images/spaceship.png')
+        spaceship = pygame.image.load('game Images/spaceship.png')
         pygame.display.set_caption('Space Craft')
         clock = pygame.time.Clock()
         my_text = pygame.font.Font(None,40)
