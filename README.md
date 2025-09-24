@@ -13,20 +13,16 @@ Space Craft Game using pygame. This is an exciting game where you navigate a spa
 ## Installation
 To clone this repo, use the following command:
 
+#Dependency
+* PyGame
+ 
 ```bash
 git clone https://github.com/Faizanfarhad/Space-Craft-Game.git
- ``
 
-``
-#Dependency
-* pip install pygame
-
-# Usage
-* Run the game by executing the following command:
-`` * python main.py
-   ```
+pip install pygame
+```
 ## How to play this game ?
-# First install dependencies if you installed yet 
+# First install dependencies if you not installed yet 
 ```bash
 cd 'Space-Craft-Game'
 cd 'Space Craft Game'
@@ -34,14 +30,12 @@ cd 'Space Craft Game'
 python Space_craft.py
 
 ```
-
 #Note :- if you getting  error while running this in terminal  , then try to open Directory in vscode and run command 
 ```bash
 python Space_craft.py
 ```
 #Contributing
 * Contributions are welcome! Please fork the repository and create a pull request with your changes.
-
 
 
 #License
