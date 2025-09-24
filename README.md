@@ -25,10 +25,24 @@ git clone https://github.com/Faizanfarhad/Space-Craft-Game.git
 * Run the game by executing the following command:
 `` * python main.py
    ```
+## How to play this game ?
+# First install dependencies if you installed yet 
+```bash
+cd 'Space-Craft-Game'
+cd 'Space Craft Game'
 
+python Space_craft.py
 
+```
+
+#Note :- if you getting  error while running this in terminal  , then try to open Directory in vscode and run command 
+```bash
+python Space_craft.py
+```
 #Contributing
 * Contributions are welcome! Please fork the repository and create a pull request with your changes.
+
+
 
 #License
 * This project is licensed under the MIT License.
