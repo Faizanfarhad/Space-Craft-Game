@@ -22,7 +22,7 @@ git clone https://github.com/Faizanfarhad/Space-Craft-Game.git
 pip install pygame
 ```
 ## How to play this game ?
-# First install dependencies if you not installed yet 
+## First install dependencies if you not installed yet 
 ```bash
 cd 'Space-Craft-Game'
 cd 'Space Craft Game'
