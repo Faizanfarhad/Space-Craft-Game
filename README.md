@@ -13,7 +13,7 @@ Space Craft Game using pygame. This is an exciting game where you navigate a spa
 ## Installation
 To clone this repo, use the following command:
 
-#Dependency
+## Dependency
 * PyGame
  
 ```bash
@@ -34,9 +34,9 @@ python Space_craft.py
 ```bash
 python Space_craft.py
 ```
-#Contributing
+## Contributing
 * Contributions are welcome! Please fork the repository and create a pull request with your changes.
 
 
-#License
+## License
 * This project is licensed under the MIT License.
